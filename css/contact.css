@@ -1,0 +1,128 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family:'Raleway', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-weight: 300;
+  font-size: 2.3rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 950;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1.1em;
+  margin-top: 1.6em;
+}
+
+nav a{
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .85rem;
+  padding: .5em;
+  color: #000;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #555;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top:0.5em;
+}
+
+.title span{
+  font-weight: 300;
+  display: block;
+  font-size: 0.7em;
+}
+
+@media (min-width: 40rem) {
+  .logo{
+    float: left;
+  }
+  nav {
+    float: right;
+  }
+}
+
+
+.contactpage{
+  background-image: url(../img/home.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10em;
+}
+
+@media (min-width: 60rem) {
+  .contactpage {
+    height: 100vh;
+    padding-top: 35vh;
+  }
+}
+
+.namebox{
+  width: 15em;
+  margin-bottom: 1em;
+}
+
+.petbox{
+  width: 15em;
+  margin-bottom: 1em;
+}
+
+.questionbox{
+  width:15em;
+  padding:5em;
+  margin-bottom:1em;
+}
+
+@media (min-width: 60rem) {
+.namebox{
+  width: 25em;
+}
+
+.petbox{
+  width: 25em;
+}
+
+.questionbox{
+  width:25em;
+  padding:5em;
+}
+}
