@@ -76,21 +76,15 @@ footer::after{
   .title{
     font-size: 0.9rem;
     padding: 0em;
-    width: 100;
   }
   .button{
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-width: 1.5px;
     padding: 0.5em 1em;
   }
    .home-1{
      padding: 1em;
   }
-  h1{
-  font-weight: 300;
-  font-size: 0.9rem;
-    width: 100;
-}
   nav li {
   display: inline-block;
   margin: 0.2em;
