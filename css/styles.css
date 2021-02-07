@@ -68,7 +68,7 @@ footer::after{
   }
 }
 
-@media (min-width: 30rem){
+@media (max-width: 30rem){
   .title{
     font-size: 1.5rem;
   }
