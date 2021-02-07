@@ -72,6 +72,10 @@ footer::after{
   .title{
     font-size: 1.5rem;
   }
+  .button{
+    font-size: 1rem;
+    border-width: 1.5px;
+    padding: 0.5em 2em;
 }
 /* header*/
 
