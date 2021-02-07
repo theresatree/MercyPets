@@ -266,7 +266,7 @@ nav a:focus {
   color: #FFF;
 }
 
-@media (max-width: 20rem) {
+@media (min-width: 20rem) {
   .section3 h1 span {
     font-size: 0.4em;
   }
