@@ -89,6 +89,13 @@ footer::after{
   font-weight: 300;
   font-size: 1rem;
 }
+  nav li {
+  display: inline-block;
+  margin: 0.2em;
+}
+  .section 1{
+    padding: 0.2em;
+  }
 }
 /* header*/
 
