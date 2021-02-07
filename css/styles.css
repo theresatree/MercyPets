@@ -75,10 +75,11 @@ footer::after{
 @media (max-width: 30rem){
   .title{
     font-size: 1.5rem;
+    padding: 0.3em;
   }
   .button{
-    font-size: 1rem;
-    border-width: 1px;
+    font-size: 1.5rem;
+    border-width: 1.5px;
     padding: 0.5em 1em;
   }
    .home-1{
@@ -196,7 +197,6 @@ nav a:focus {
 }
 
 @media (min-width: 60rem) {
-
   .section2 {
    width: 45%;
    position: relative;
@@ -257,6 +257,16 @@ nav a:focus {
   color: #FFF;
 }
 
+@media (min-width: 60rem) {
+  .section3 h1 span {
+    font-size: 0.4em;
+  }
+  .section3 h1{
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+}
+  
 /*footer*/
 .unstyled-list{
   margin: 0;
