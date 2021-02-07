@@ -76,7 +76,7 @@ footer::after{
   .title{
     font-size: 1.5rem;
     padding: 0.3em;
-    max-width: 100%;
+    width: auto;
   }
   .button{
     font-size: 1.5rem;
@@ -96,6 +96,7 @@ footer::after{
 }
   .section 1{
     padding: 0.2em;
+    margin: auto;
   }
 }
 /* header*/
