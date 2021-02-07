@@ -67,6 +67,12 @@ footer::after{
     font-size: 2.5rem;
   }
 }
+
+@media (min-width: 30rem){
+  .title{
+    font-size: 1.5rem;
+  }
+}
 /* header*/
 
 .button-accent{
@@ -139,6 +145,7 @@ nav a:focus {
     padding-top: 35vh;
   }
 }
+
 
 /* SECTION 2*/
 .section2 {
